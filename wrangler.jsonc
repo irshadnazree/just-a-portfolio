@@ -1,0 +1,17 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "just-a-portfolio",
+	"compatibility_date": "2025-09-02",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"main": "@tanstack/react-start/server-entry",
+	"d1_databases": [
+		{
+			"binding": "portfolio_things",
+			"database_name": "portfolio-things",
+			"database_id": "80c5d197-f669-4357-a357-f98f9c416075",
+			"remote": true
+		}
+	]
+}
